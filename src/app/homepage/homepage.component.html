@@ -1,0 +1,43 @@
+<div class="mat-card-cvr">
+<mat-card class="homepage-card">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>Welcome to my sample app!</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Here I will be posting my projects and other things I am working on.
+        I am very excited at the opportunity I've received and I hope this app will be a great learning experience.
+        I am working on a web app that will allow users to view and edit their HERE maps.
+        I am using Angular and HERE's JavaScript API.
+      </p>
+    </mat-card-content>
+    <app-jsmap></app-jsmap>
+    <mat-card-actions>
+      <button mat-button (click)="openMapWithAddressDialog()" >First map example</button>
+      <button mat-button>Second Map Example</button>
+      <button mat-button>Third Map Example</button>
+      <button mat-button>Fourth Map Example</button>
+      <a class="button" matbutton href="https://www.linkedin.com/in/martin-alvarado-6a4148175/" target="_blank" >My LinkedIn Profile</a>
+
+    </mat-card-actions>
+  </mat-card>
+
+
+<!--  
+</div>
+<body class="">
+    <app-jsmap
+    [zoom]="zoom"
+    [lat]="lat"
+    [lng]="lng"
+    (notify)="handleMapChange($event)"
+    ></app-jsmap>
+    <app-mapposition
+    [zoom]="zoom"
+    [lat]="lat"
+    [lng]="lng"
+    (notify)="handleInputChange($event)"
+    ></app-mapposition>
+</body>
+-->

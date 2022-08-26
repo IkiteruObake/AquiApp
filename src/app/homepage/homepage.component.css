@@ -1,0 +1,22 @@
+    .homepage-card {
+    max-width: 40%;
+    margin: 0 auto;
+    width: 40%;
+    }
+  
+  
+  .header-image {
+    background-image: url('https://pbs.twimg.com/profile_images/1562482721326305280/BxSxh8uD_400x400.jpg');
+    background-size: cover;
+  }
+  
+  .mat-card-cvr{
+    width: 100%;
+    text-align:center;
+ }
+ 
+ .button{
+    margin-left:25%;
+    margin-right:25%;
+
+ }

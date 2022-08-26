@@ -1,0 +1,36 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-events {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #555;
+  }
+  .tp-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+ }
+ .tp-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+    width:100px;   
+ }
+ .color-teal {
+    background: teal;
+ }
+ .example-spacer {
+    flex: 1 1 auto;
+  }
+  

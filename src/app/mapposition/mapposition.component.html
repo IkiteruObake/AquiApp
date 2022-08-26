@@ -1,0 +1,35 @@
+<form class="example-form">
+  <mat-form-field appearance="fill">
+    <mat-label>Zoom</mat-label>
+  <input
+  matInput 
+    (change)="notify.emit($event)"
+    type="number"
+    name="zoom"
+    [value]="zoom"
+  />
+  <mat-icon matSuffix class="my-icon">zoom_in</mat-icon>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Latitude</mat-label>
+  <input
+  matInput
+    (change)="notify.emit($event)"
+    name="lat"
+    type="number"
+    [value]="lat"
+  />
+  <mat-icon matSuffix>location_on</mat-icon>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Longitude</mat-label>
+  <input
+  matInput
+    (change)="notify.emit($event)"
+    name="lng"
+    type="number"
+    [value]="lng"
+  />
+  <mat-icon matSuffix>location_on</mat-icon>
+  </mat-form-field>
+</form>

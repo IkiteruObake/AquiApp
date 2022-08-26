@@ -1,0 +1,29 @@
+<form [formGroup]="confForm!" (ngSubmit)="onSubmit()">
+<ng-container>
+    <mat-form-field>
+        <input matInput type="text" formControlName="transportMode" placeholder="Vehicle?"/>
+    </mat-form-field>
+</ng-container>
+<ng-container>
+    <mat-form-field>
+        <input matInput type="text" formControlName="origin" placeholder="Start Point"/>
+    </mat-form-field>
+</ng-container>
+<ng-container>
+    <mat-form-field>
+        <input matInput type="text" formControlName="destination" placeholder="End Point"/>
+    </mat-form-field>
+</ng-container>
+<ng-container>
+</ng-container>
+<ng-container>
+<button type="submit" mat-raised-button>
+    Submit
+</button>
+</ng-container>
+<ng-container>
+    <button (click)="closeDialog()" mat-raised-button>
+        Close
+    </button>
+</ng-container>
+</form>
